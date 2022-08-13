@@ -25,6 +25,38 @@
     },
     "python.formatting.provider": "yapf",
     "[json]": {
-	    "editor.formatOnSave": false
-    }
+        "editor.formatOnSave": false
+    },
+    "workspace.isHidden": true,
+    "cSpell.words": [
+        "AMPR",
+        "bootmagic",
+        "BSLS",
+        "BSPC",
+        "crkbd",
+        "Drashna",
+        "EXLM",
+        "foostan",
+        "Jaelre",
+        "keylog",
+        "keyrecord",
+        "LBRC",
+        "LCBR",
+        "LCTL",
+        "LGUI",
+        "LPRN",
+        "LSFT",
+        "OLED",
+        "PERC",
+        "PROGMEM",
+        "RALT",
+        "RBRC",
+        "RCBR",
+        "RPRN",
+        "SCLN",
+        "SLSH",
+        "TILD",
+        "UNDS"
+    ],
+    "cmake.configureOnOpen": true
 }
