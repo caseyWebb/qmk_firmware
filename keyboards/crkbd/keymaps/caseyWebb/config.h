@@ -32,11 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PERMISSIVE_HOLD
 #define TAPPING_FORCE_HOLD
 
-#define AUTO_SHIFT_MODIFIERS
-#define NO_AUTO_SHIFT_SPECIAL
-#define AUTO_SHIFT_TIMEOUT 175
-
-#define MK_KINETIC_SPEED
+#define COMBO_COUNT 10
 
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING
@@ -54,5 +50,3 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_SAT_STEP 17
     #define RGBLIGHT_VAL_STEP 17
 #endif
-
-#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
