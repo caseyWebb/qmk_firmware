@@ -26,13 +26,16 @@ enum custom_keycodes {
 };
 
 enum combos {
+  SPOTLIGHT,
   MEH
 };
 
-const uint16_t PROGMEM meh_combo[] = {MO(1), MO(2), COMBO_END};
+const uint16_t PROGMEM meh_combo[] = {KC_RSFT, MO(1), COMBO_END};
+const uint16_t PROGMEM spotlight_combo[] = {LT(2, KC_SPC), MT(MOD_RGUI, KC_ESC), COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
-  COMBO(meh_combo, KC_MEH)
+  COMBO(meh_combo, KC_MEH),
+  COMBO(spotlight_combo, RGUI(KC_SPC)),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
