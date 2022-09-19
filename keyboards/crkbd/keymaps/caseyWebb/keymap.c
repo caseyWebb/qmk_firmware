@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRANSPARENT, KC_CIRC, KC_DLR,  KC_LPRN,     KC_RPRN,     KC_PIPE,      KC_RABK,  KC_4, KC_5, KC_6, KC_PLUS, KC_TRANSPARENT,
     KC_TRANSPARENT, KC_AMPR, KC_AT,   KC_LBRACKET, KC_RBRACKET, KC_BSLASH,    KC_UNDS,  KC_1, KC_2, KC_3, KC_DOT,  KC_TRANSPARENT,
 
-    KC_RCMD, _______, _______,                                                KC_TRANSPARENT, KC_0, KC_TRANSPARENT
+    KC_TRANSPARENT, _______, _______,                                         KC_TRANSPARENT, MT(MOD_RGUI, KC_0), KC_TRANSPARENT
   ),
 
   [2] = LAYOUT_split_3x6_3(
