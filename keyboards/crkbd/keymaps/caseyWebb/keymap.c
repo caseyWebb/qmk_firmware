@@ -30,7 +30,7 @@ enum combos {
   MEH
 };
 
-const uint16_t PROGMEM meh_combo[] = {KC_RSFT, MO(1), COMBO_END};
+const uint16_t PROGMEM meh_combo[] = {KC_RSFT, LT(1, KC_ESC), COMBO_END};
 const uint16_t PROGMEM spotlight_combo[] = {LT(2, KC_SPC), MT(MOD_RGUI, KC_ESC), COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
