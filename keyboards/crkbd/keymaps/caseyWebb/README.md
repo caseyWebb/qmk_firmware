@@ -12,5 +12,12 @@ Legend:
 
 Combos:
 
--   Purple: Meh (Alt + Shift + Ctrl). Add CMD with right hand for full Hyper.
--   Orange: Spotlight (CMD + Space). Allows chording without sequence issues (i.e. triggerering Lower + Tab)
+-   Purple: Meh (Alt + Shift + Ctrl)
+-   Orange: Spotlight (CMD + Space; this is the default but adding a combo prevents Lower + Tab from being sent when chording)
+
+## Features
+
+-   Dvorak
+-   One-handed navigation, media controls, and screenshots
+-   Emphasis on Elm and Haskell bigrams (e.g. `->`, `<|`, `|>`, `\_`)
+-   "Meh" chord; CMD can be added with right thumb for "Hyper"
