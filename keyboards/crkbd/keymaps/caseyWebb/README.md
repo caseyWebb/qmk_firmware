@@ -2,7 +2,7 @@
 
 > A fairly minimal layout for the crkbd/corne keyboard
 
-![crkbd/caseyWebb](./visual.svg)
+![crkbd/caseyWebb](./visual.png)
 
 Legend:
 
